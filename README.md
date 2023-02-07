@@ -1,9 +1,13 @@
 MNIST NumberClassification
 
-Description: This small project a practice and introductory project to machine learning. Using the MNIST database, we trained a CNN model to categorize hand-written numbers. The file ModelTrainer.py will load the dataset, train the model, then save it into a model.bin file. File ModelTester.py can be used to test the model's accuracy. At the current state, the model achieved the accuracy of 99.8% in training and 98.8% in testing. 
+Description: The project is a beginner-level machine learning project that uses the MNIST database to train a convolutional neural network (CNN) to categorize handwritten numbers. The ModelTrainer.py file loads the dataset, trains the model, and saves it as a model.bin file. The model's accuracy currently stands at 99.8% in training and 98.8% in testing.
 
 Instructions:
 1. Install python 3.10 (or above)
 2. Install the required modules with pip install -r requirements.txt
-3. Run file ModelTrainer.py
-4. Run file ModelTester.py
+3. Run file ModelTrainer.py to train the model
+4. Run file ModelTester.py to test the model
+
+Author:
+Toan Nham
+nhamtd@mail.uc.edu
